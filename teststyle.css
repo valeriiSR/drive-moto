@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.container{
+  width: 1200px;
+  padding: 10px 40px;
+}
+.form__wrp{
+  display: flex;
+  justify-content: space-between;
+}
+.row{
+  border: thin solid #b5b5b5;
+  min-height: 400px;
+  width: 100%;
+  padding: 30px;
+}
+.custom-chekbox{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  /*  Прячем именно так, что бы можно было получить состояние "active" для "поддельных" chekbox'ов  */
+
+}
+.custom-label{
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom-label::before{
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #adb5bd;
+  border-radius: .25rem;
+  margin-right: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom-chekbox:checked+.custom-label::before{
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+}
