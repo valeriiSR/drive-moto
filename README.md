@@ -2,7 +2,10 @@
 
 ## Верстка Интернет магазина DRIVE MOTO 2021
 
-1. Адаптивная верстка из макета Figma
-2. HTML, CSS, JS, jQuery
+**Адаптивная верстка из макета Figma**
+BEM, Flex, media-queries
 
-[Ссылка на проект](https://drive-moto.svrprojects.ru)
+#### Используемые технологии
+HTML, CSS, JS, jQuery
+
+![Screenshot_4](https://github.com/user-attachments/assets/6e13f71a-78cc-49d0-a80e-0c4d4e7f3dfb)
